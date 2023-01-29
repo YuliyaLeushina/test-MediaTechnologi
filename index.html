@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+
+			<div class="header__top">
+				<div class="header__container"><a href="#" class="header__link-locations _icon-locations popup-link" data-popup="#popup">Петропавловск-Камчатский</a></div>
+
+			</div>
+			<div class="header__menu menu">
+				<div class="header__container">
+					<a href="#" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link "><span class="_icon-arrow">Продукция</span> </a>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Курьерские пакеты с карманом</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Пакеты Дой-Пак (Doy Pack)</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Курьерские пакеты без кармана</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Крафт пакеты дой-пак с прозрачным окном</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">Полипропиленовые пакеты</a></li>
+									<li class="menu__sub-item"><a href="#" class="menu__sub-link">БОПП пакеты</a></li>
+								</ul>
+							</li>
+							<li class="menu__item"><a href="#" class="menu__link"><span>Доставка и оплата</span> </a></li>
+							<li class="menu__item"><a href="#" class="menu__link"><span>Отзывы</span></a></li>
+							<li class="menu__item"><a href="#" class="menu__link"><span>Заказчики</span></a></li>
+							<li class="menu__item"><a href="#" class="menu__link"><span>О компании</span></a></li>
+							<li class="menu__item"><a href="#" class="menu__link"><span>Контакты</span></a></li>
+						</ul>
+					</nav>
+					<a href="tel:+78004567500" class="header__link-phone">8 800 456-75-00</a>
+					<div class="header__sub"><a href="#" class="header__link-sub-locations _icon-locations popup-link" data-popup="#popup"></a></div>
+
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="page__container">
+				<ul class="bredcumber">
+					<li class="bredcumber__item"><a href="#" class="bredcumber__link ">Главная</a></li>
+					<li class="bredcumber__item _icon-arrow">Продукция</li>
+				</ul>
+				<section class="catalog">
+					<h1 class="catalog__title">Продукция</h1>
+					<div class="flex">
+						<div class="flex__item">
+							<div class="flex__title">Курьерские пакеты<br>
+								с карманом</div>
+							<div class="flex__img">
+								<img src="img/01.png" alt="01">
+							</div>
+							<p class="flex__price">от 5.90 ₽ / шт</p>
+						</div>
+						<div class="flex__item">
+							<div class="flex__title">Пакеты Дой-Пак<br>
+								(Doy Pack)</div>
+							<div class="flex__img">
+								<img src="img/02.png" alt="01">
+							</div>
+							<p class="flex__price">от 0.50 ₽ / шт</p>
+						</div>
+						<div class="flex__item">
+							<div class="flex__title">Курьерские пакеты<br>
+								без кармана</div>
+							<div class="flex__img">
+								<img src="img/03.png" alt="01">
+							</div>
+							<p class="flex__price">от 4.75 ₽ / шт</p>
+						</div>
+						<div class="flex__item">
+							<div class="flex__title">Крафт пакеты дой-пак<br> с прозрачным окном</div>
+							<div class="flex__img">
+								<img src="img/04.png" alt="01">
+							</div>
+							<p class="flex__price">от 0.50 ₽ / шт</p>
+						</div>
+						<div class="flex__item">
+							<div class="flex__title">Полипропиленовые пакеты</div>
+							<div class="flex__img">
+								<img src="img/05.png" alt="01">
+							</div>
+							<p class="flex__price">от 0.85 ₽ / шт</p>
+						</div>
+						<div class="flex__item">
+							<div class="flex__title">БОПП пакеты
+							</div>
+							<div class="flex__img">
+								<img src="img/06.png" alt="01">
+							</div>
+							<p class="flex__price">от 0.40 ₽ / шт</p>
+						</div>
+					</div>
+				</section>
+			</div>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+
+	<div id="popup" class="popup">
+		<div class="popup__wrapper popup__body">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close close__popup">X</button>
+				<div class="popup__text">
+					<h1 class="popup__title">Выберите город</h1>
+					<div class="popup__search">
+						<input type="text" id="myInput" placeholder="Ваш город" />
+						<span class="_icon-search"></span>
+					</div>
+					<button type="button" class="popup__btn-location _icon-location-cursor">Определить автоматически</button>
+					<ul class="radio" id="citis-list">
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="Kirov" class="radio__btn">
+								Киров
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="Moscow" class="radio__btn">
+								Москва
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="Yekaterinburg" class="radio__btn">
+								Екатеринбург
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="Krasnodar" class="radio__btn">
+								Краснодар
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="Nizhny Novgorod" class="radio__btn">
+								Нижний Новгород
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="
+							Novosibirsk" class="radio__btn">
+								Новосибирск
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="Rostov-on-Don" class="radio__btn">
+								Ростов-на-Дону
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="Samara" class="radio__btn">
+								Самара
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="St. Petersburg" class="radio__btn">
+								Санкт-Петербург
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="Ufa" class="radio__btn">
+								Уфа
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+						<li class="radio__group">
+							<label>
+								<input type="radio" name="cyti" value="Chelyabinsk" class="radio__btn">
+								Челябинск
+								<span class="radio__custom"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="js/app.js"></script>
+</body>
+
+</html>
