@@ -1,4 +1,5 @@
 # test-MediaTechnologi
+https://yuliyaleushina.github.io/test-MediaTechnologi/
 
 Задание состоит из двух частей: 
 - первая часть - обязательная, аккуратно сверстать макет,
